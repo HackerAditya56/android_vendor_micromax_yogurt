@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/micromax/yogurt
 
 PRODUCT_COPY_FILES += \
-    vendor/micromax/yogurt/proprietary/framework/mediatek-ims-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-common.jar \
     vendor/micromax/yogurt/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/micromax/yogurt/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/micromax/yogurt/proprietary/etc/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml \
